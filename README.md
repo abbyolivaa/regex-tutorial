@@ -11,16 +11,16 @@
 3. [Quantifiers](#Quantifiers)
 
 
-4. [Character Classes](#Character Classes)
+4. [Character-Classes](#Character Classes)
 
 
 5. [Flags](#Flags)
 
 
-6. [Grouping and Capturing](#Grouping and Capturing)
+6. [Grouping-and-Capturing](#Grouping and Capturing)
 
 
-7. [Bracket Expressions](#Bracket Expressions)
+7. [Bracket-Expressions](#Bracket Expressions)
 
 
 8. [Boundaries](#Boundaries)
