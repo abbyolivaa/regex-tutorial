@@ -66,12 +66,25 @@
 **g** : global search
 
 ## Grouping&Capturing
+**([a-z0-9_.-]+)** : this expression includes + which means we match at least one or more of any characters in the square brackets
+
+ -  **a-z** : lowercase letters from a to z, 
+ -  **0-9** : numbers from 0 to 9, 
+ -  **_** : underscore, 
+ -  **.** : period, 
+ -  **-** : hyphen.
 
 ## BracketExpressions
+**Bracket expressions are used to specify characters to match, they are enclosed in square brackets[].**
+
+The example has three bracket expressions: ([a-z0-9_.-]+), ([\da-z.-]+), and ([a-z.]{2,6}).
+
+ -  **[abc]** :  matches any character in the brackets; either a or b or c.
 
 ## Boundaries
+The metacharacter \b is an anchor like the caret and the dollar sign. It matches at a position that is called a “word boundary”. This match is zero-length.
 
-##Author
+## Author
 https://github.com/abbyoliva/abbyoliva/tree/main
   
   
